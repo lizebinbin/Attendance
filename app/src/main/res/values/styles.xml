@@ -1,0 +1,21 @@
+<resources>
+
+    <style name="appTheme" parent="android:Theme.Light.NoTitleBar">
+
+    </style>
+
+    <style name="fullScreen" parent="android:Theme.Light.NoTitleBar.Fullscreen">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/transparent</item>
+    </style>
+
+    <style name="radioButton">
+        <!--<item name="android:button">@drawable/radio_btn_bg</item>-->
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">10dp</item>
+    </style>
+
+</resources>
